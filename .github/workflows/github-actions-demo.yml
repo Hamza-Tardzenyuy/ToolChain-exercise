@@ -36,6 +36,10 @@ jobs:
       - name: Install deps
         run: npm ci
 
+        # Run tests
+      - name: Run tests
+        run: npm run test
+
       - name: Build
         run: npm run build
 
